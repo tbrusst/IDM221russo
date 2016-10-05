@@ -1,0 +1,20 @@
+## Brendan Russo
+## Inspiration
+
+### Yul Moreau (http://y78.fr/11/)
+- Unique and full of motion
+- Fills the entire screen all the way down
+- Motion graphics add life to the information
+
+### Code Sketch (http://cs.kenji-special.info/)
+- Flows horizontally rather than vertically
+- Windows are small and hard to focus on individually
+- Difficult to find specific pieces all the time
+- Unique flow of movement
+
+### Heck House (http://heckhouse.com/)
+- Simple and clean
+- Makes bottom grid intersting
+- Less exciting but more streamlined and user friendly
+- Hover motion in grid is not that smooth
+
