@@ -1,0 +1,50 @@
+/* COLORS
+#FFF682 Yellow
+#F9F9F9 Off white
+#FFFFFF White
+#717C89 Medium Gray
+#000000 Black
+*/
+
+/* NAV */
+
+nav {background-color: #FFF682;
+	color: #000000;}
+
+/* HOME */
+
+.homeheader {background-color: #FFFFFF;}
+
+#homeheadtext {color: #000000;}
+
+#homeheadtext h1 {font-size: 75px;}
+
+#homeheadtext p {font-size: 30px;}
+
+.project {background-color: #F9F9F9;}
+
+.projectlist {color: #000000;}
+
+
+/* PROJECTS */
+
+.projectheader {background-color: #FFFFFF;
+color: #000000;}
+
+.projectmain {background-color: #F9F9F9;}
+
+.projectdescription {color: #000000;}
+
+/* ABOUT */
+
+#abouthead {background-color: #FFFFFF;}
+
+#profilepicture {color: #000000}
+
+#aboutmain {background-color: #F9F9F9;}
+
+#abouttext {color: #000000;}
+
+
+
+

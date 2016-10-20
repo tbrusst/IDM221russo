@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
 <head>
 	<title> HOME </title>
 </head>
 <body>
   <nav>
+   <div id="navtext">
 	<ul>
 		<li><a href="idm221tbrbrendanpage.html">ABOUT</a></li>
 		<li><a href="#projects">WORK</a></li>
 	</ul>
+   </div>
   </nav>
 
-  <header>
+  <header class="homeheader">
+   <div id="homeheadlogo">
+    <p><img src="../images/logo.png"></p>
+   </div>
+   <div id="homeheadtext">
 	<h1> BRENDAN RUSSO </h1>
 	<p> WEB DESIGNER AND DEVELOPER </p>
+   </div>
   </header>
 
-  <div id="projects">
-	<h2> PROJECTS </h2>
-		
+  <div id="homeprojects">	
 	  <div class="project">
 	   <a href="idm221tbrlogoprojectpage.html">
-		 <p><img src="../images/logo.png" width="100" height="100"></p>
-		 <p> PERSONAL LOGO </p>
+		 <figure class="projectlist">
+		 	<img src="../images/logo.png">
+		 	<figcaption  class="homeprojects"> PERSONAL LOGO </figcaption>
+		 </figure>
 	   </a>
-	  </div>
+      </div>
 
 	  <div class="project">
 	   <a href="idm221tbrhandillustrationpage.html">
-		 <p><img src="../images/handlines.jpg" width="100" height="100"></p>
-		 <p> HAND ILLUSTRATION </p>
+		 <figure class="projectlist">
+		 	<img src="../images/handlines.jpg">
+		 	<figcaption class="homeprojects"> HAND ILLUSTRATION </figcaption>
+		 </figure>
 	   </a>
 	  </div>
 
 	  <div class="project">
 	   <a href="idm221tbrastronautdesktopbanner.html">
-		 <p><img src="../images/Astronaut.jpg" width="165.5" height="92.9"></p>
-		 <p> ASTRONAUT DESKTOP BANNER </p>
+		 <figure class="projectlist">
+		 	<img src="../images/Astronaut.jpg">
+		 	<figcaption class="homeprojects"> ASTRONAUT DESKTOP</figcaption>
+		 </figure>
 	   </a>
 	  </div>
   </div>
