@@ -2,29 +2,80 @@
 #FFF682 Yellow
 #F9F9F9 Off white
 #FFFFFF White
-#717C89 Medium Gray
+#424B54 Medium Gray
 #000000 Black
 */
 
+/* FONTS */
+
+@font-face {
+    font-family: 'bignoodletitlingoblique';
+    src: url('../fonts/big_noodle_titling_oblique-webfont.woff2') format('woff2'),
+         url('../fonts/big_noodle_titling_oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url('../fonts/big_noodle_titling-webfont.woff2') format('woff2'),
+         url('../fonts/big_noodle_titling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	font-size: 16px;
+}
+
+a, a:visited, a:hover, a:link, a:active {text-decoration: none;}
+
+
 /* NAV */
 
-nav {background-color: #FFF682;
-	color: #000000;}
+nav {
+	background-color: #FFF682;
+	color: #000000;
+	font-family: 'bignoodletitlingoblique';
+	text-decoration: none;
+	font-size: 2rem;
+
+}
+
+nav a:visited {color: #000000;}
 
 /* HOME */
 
-.homeheader {background-color: #FFFFFF;}
+.homeheader {
+	background-color: #FFFFFF;
+}
 
-#homeheadtext {color: #000000;}
+#homeheadtext {
+	color: #000000;
+}
 
-#homeheadtext h1 {font-size: 75px;}
+#homeheadtext h1 {
+	font-size: 75px;
+}
 
-#homeheadtext p {font-size: 30px;}
+#homeheadtext p {
+	font-size: 30px;
+}
 
-.project {background-color: #F9F9F9;}
+.project {
+	background-color: #F9F9F9;
+}
 
-.projectlist {color: #000000;}
+.projectlist {
+	color: #000000;
+}
 
+#homeprojects {
+	font-family: 'bignoodletitlingregular', Arial, sans-serif;
+	font-size: 4.6875rem;
+}
 
 /* PROJECTS */
 
@@ -33,18 +84,56 @@ color: #000000;}
 
 .projectmain {background-color: #F9F9F9;}
 
-.projectdescription {color: #000000;}
+.projectdescription {
+	color: #424B54;
+	font-family: 'bignoodletitlingregular';
+	line-height: 1.4;
+	font-size: 1.5rem;
+	letter-spacing: .1rem;
+}
+
+.projecttitle h1 {
+	color: #000000;
+	font-family: 'bignoodletitlingregular';
+	line-height: 1.4;
+	font-size: 3.8rem;
+	letter-spacing: .1rem;
+}
 
 /* ABOUT */
 
 #abouthead {background-color: #FFFFFF;}
 
-#profilepicture {color: #000000}
+/* brendan russo title */
+#profilepicture { 
+	color: #000000;
+	font-family: 'bignoodletitlingregular';
+	font-size: 6rem;
+}
 
 #aboutmain {background-color: #F9F9F9;}
 
-#abouttext {color: #000000;}
+#abouttext p {
+	color: #424B54;
+	font-family: 'bignoodletitlingregular';
+	line-height: 1.4;
+	font-size: 1.5rem;
+	letter-spacing: .1rem;
+}
 
+#abouttext h2 {
+	color: #000000;
+	font-family: 'bignoodletitlingregular';
+	line-height: 1.4;
+	font-size: 3.8rem;
+	letter-spacing: .1rem;
+}
 
+#contact, #contact a, #contact a:visited {
+	font-family:'bignoodletitlingregular';
+	color: #424B54;
+	text-decoration: none;
+	font-size: 2rem;
+}
 
 
