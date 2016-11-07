@@ -1,4 +1,14 @@
-/* COLORS
+/* 
+          )   (        )   (    (     
+   (   ( /(   )\ )  ( /(   )\ ) )\ )  
+   )\  )\()) (()/(  )\()) (()/((()/(  
+ (((_)((_)\   /(_))((_)\   /(_))/(_)) 
+ )\___  ((_) (_))    ((_) (_)) (_))   
+((/ __|/ _ \ | |    / _ \ | _ \/ __|  
+ | (__| (_) || |__ | (_) ||   /\__ \  
+  \___|\___/ |____| \___/ |_|_\|___/  
+                                      
+
 #FFF682 Yellow
 #F9F9F9 Off white
 #FFFFFF White
@@ -6,7 +16,18 @@
 #000000 Black
 */
 
-/* FONTS */
+/* 
+
+ (        )      )         (     
+ )\ )  ( /(   ( /(   *   ) )\ )  
+(()/(  )\())  )\())` )  /((()/(  
+ /(_))((_)\  ((_)\  ( )(_))/(_)) 
+(_))_|  ((_)  _((_)(_(_())(_))   
+| |_   / _ \ | \| ||_   _|/ __|  
+| __| | (_) || .` |  | |  \__ \  
+|_|    \___/ |_|\_|  |_|  |___/  
+                                 
+ */
 
 @font-face {
     font-family: 'bignoodletitlingoblique';
@@ -30,23 +51,78 @@ html {
 	font-size: 16px;
 }
 
-a, a:visited, a:hover, a:link, a:active {text-decoration: none;}
+a, a:visited, a:hover, a:link, a:active {
+	text-decoration: none;
+	color: #000000
+}
+
+a:hover {
+	color: #424B54;
+}
 
 
-/* NAV */
+/* 
+
+    )                  
+ ( /(   (              
+ )\())  )\     (   (   
+((_)\((((_)(   )\  )\  
+ _((_))\ _ )\ ((_)((_) 
+| \| |(_)_\(_)\ \ / /  
+| .` | / _ \   \ V /   
+|_|\_|/_/ \_\   \_/  
+
+ */
+
 
 nav {
 	background-color: #FFF682;
 	color: #000000;
+	width: 100% ;
+}
+
+nav ul {
 	font-family: 'bignoodletitlingoblique';
 	text-decoration: none;
 	font-size: 2rem;
-
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: .5rem; 
 }
 
-nav a:visited {color: #000000;}
+nav ul li {
+	display: inline-block;	
+}
 
-/* HOME */
+nav ul li a {
+	padding: 30px;
+}
+
+nav ul li a:visited {
+	color: #000000;
+}
+
+
+
+/* 
+
+    )     )     *          
+ ( /(  ( /(   (  `         
+ )\()) )\())  )\))(   (    
+((_)\ ((_)\  ((_)()\  )\   
+ _((_)  ((_) (_()((_)((_)  
+| || | / _ \ |  \/  || __| 
+| __ || (_) || |\/| || _|  
+|_||_| \___/ |_|  |_||___| 
+  
+
+ */
+
+#homeheadlogo {
+	text-align: center;
+	margin: 0;
+}
 
 .homeheader {
 	background-color: #FFFFFF;
@@ -57,11 +133,11 @@ nav a:visited {color: #000000;}
 }
 
 #homeheadtext h1 {
-	font-size: 75px;
+	font-size: 4.6875rem;
 }
 
 #homeheadtext p {
-	font-size: 30px;
+	font-size: 1.875rem;
 }
 
 .project {
@@ -74,15 +150,51 @@ nav a:visited {color: #000000;}
 
 #homeprojects {
 	font-family: 'bignoodletitlingregular', Arial, sans-serif;
-	font-size: 4.6875rem;
+	font-size: 3rem;
 }
 
-/* PROJECTS */
+.project figure {
+	margin: auto;
+	text-align: center;
+}
 
-.projectheader {background-color: #FFFFFF;
-color: #000000;}
+.project img {
+	margin: auto;
+	padding: 2rem;
+}
 
-.projectmain {background-color: #F9F9F9;}
+
+
+
+
+
+/* 
+
+ (    (        )                            (     
+ )\ ) )\ )  ( /(                (     *   ) )\ )  
+(()/((()/(  )\())    (   (      )\  ` )  /((()/(  
+ /(_))/(_))((_)\     )\  )\   (((_)  ( )(_))/(_)) 
+(_)) (_))    ((_)   ((_)((_)  )\___ (_(_())(_))   
+| _ \| _ \  / _ \  _ | || __|((/ __||_   _|/ __|  
+|  _/|   / | (_) || || || _|  | (__   | |  \__ \  
+|_|  |_|_\  \___/  \__/ |___|  \___|  |_|  |___/  
+   
+
+ */
+
+.projecttitle {
+	text-align: center;
+	margin: auto;
+}
+
+.projectheader {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.projectmain {
+	background-color: #F9F9F9;
+}
 
 .projectdescription {
 	color: #424B54;
@@ -90,19 +202,70 @@ color: #000000;}
 	line-height: 1.4;
 	font-size: 1.5rem;
 	letter-spacing: .1rem;
+	width: 55%;
+	margin: auto;
+	padding: 2.5rem;
 }
 
 .projecttitle h1 {
 	color: #000000;
 	font-family: 'bignoodletitlingregular';
-	line-height: 1.4;
 	font-size: 3.8rem;
 	letter-spacing: .1rem;
+	margin-top: : 2rem;
 }
 
-/* ABOUT */
+.projecttitle img{
+	margin-bottom: 2rem;
+}
 
-#abouthead {background-color: #FFFFFF;}
+/* 
+                  )                  
+   (       (   ( /(           *   )  
+   )\    ( )\  )\())     (  ` )  /(  
+((((_)(  )((_)((_)\      )\  ( )(_)) 
+ )\ _ )\((_)_   ((_)  _ ((_)(_(_())  
+ (_)_\(_)| _ ) / _ \ | | | ||_   _|  
+  / _ \  | _ \| (_) || |_| |  | |    
+ /_/ \_\ |___/ \___/  \___/   |_|    
+                                    
+
+ */
+
+#abouthead {
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+#profilepicture {
+	margin-top: 2rem;
+	margin-bottom: 0;
+}
+
+#abouttext {
+	width: 55%;
+	margin: auto;
+}
+
+#abouttext h2 {
+	text-align: center;
+	padding-top: 2rem;
+	margin: 0;
+}
+
+#contact ul {
+	font-family: 'bignoodletitlingoblique';
+	text-decoration: none;
+	font-size: 2rem;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#contact ul li {
+	display: inline-block;	
+}
 
 /* brendan russo title */
 #profilepicture { 
@@ -111,7 +274,9 @@ color: #000000;}
 	font-size: 6rem;
 }
 
-#aboutmain {background-color: #F9F9F9;}
+#aboutmain {
+	background-color: #F9F9F9;
+}
 
 #abouttext p {
 	color: #424B54;
@@ -135,5 +300,4 @@ color: #000000;}
 	text-decoration: none;
 	font-size: 2rem;
 }
-
 
