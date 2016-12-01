@@ -51,18 +51,31 @@ html {
 	font-size: 16px;
 }
 
-a, a:visited, a:hover, a:link, a:active {
-	text-decoration: none;
-	color: #000000
-}
-
-a:hover {
-	color: #424B54;
-}
-
 header {
 	padding-top: 8rem;
 }
+
+
+/*
+#bgvideo {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+#videohome {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+*/
 
 
 /* 
@@ -78,14 +91,11 @@ header {
 
  */
 
-
 nav {
 	position: fixed;
-	position: top left;
 	z-index: 10;
-	box-shadow: 0 0 1rem rgba(0,0,0,.1);
+	box-shadow: 0 0 1rem rgba(0,0,0,.05);
 	background-color: #FFF682;
-	color: #000000;
 	width: 100% ;
 	height: 5rem;
 	background-image: url(../images/logosmall.png);
@@ -124,11 +134,21 @@ nav ul li a {
 	right: 2rem;
 	top: 1.4rem;
 	padding: 30px;
+	color: #000000;
+	text-decoration: none;
 
 }
 
 nav ul li a:visited {
 	color: #000000;
+}
+
+nav ul li a:active {
+	color: #f9f9f9;
+}
+
+nav ul li a:hover {
+	color: #424B54;
 }
 
 
@@ -148,6 +168,9 @@ nav ul li a:visited {
  */
 
 #homeheadlogo {
+	height: 100%;
+	width: 100%; 
+	position: relative;
 	text-align: center;
 }
 
@@ -190,10 +213,15 @@ nav ul li a:visited {
 
 }
 
+#homeprojects a {
+	text-decoration: none;
+}
+
 #homeprojects {
 	font-family: 'bignoodletitlingregular', Arial, sans-serif;
 	font-size: 3rem;
 	background-color: #F9F9F9;
+	padding-bottom: 2rem;
 }
 
 .project figure {
@@ -203,9 +231,8 @@ nav ul li a:visited {
 }
 
 .project img {
-
 	margin: 0;
-	padding: 1rem, 0;
+	padding: 1rem;
 }
 
 
@@ -243,6 +270,7 @@ nav ul li a:visited {
 
 .projectmain {
 	background-color: #F9F9F9;
+	padding-bottom: 1rem;
 }
 
 .projectdescription {
@@ -261,7 +289,7 @@ nav ul li a:visited {
 	font-family: 'bignoodletitlingregular';
 	font-size: 3.8rem;
 	letter-spacing: .1rem;
-	margin-top: : 2rem;
+	margin-top: 2rem;
 }
 
 .projecttitle img{
@@ -317,7 +345,8 @@ nav ul li a:visited {
 }
 
 #contact ul li {
-	display: inline-block;	
+	display: inline-block;
+	padding: 1rem;	
 }
 
 /* brendan russo title */
@@ -329,6 +358,7 @@ nav ul li a:visited {
 
 #aboutmain {
 	background-color: #F9F9F9;
+	padding-bottom: 1rem;
 }
 
 #abouttext p {
